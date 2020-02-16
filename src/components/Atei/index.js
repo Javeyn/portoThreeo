@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../Style/images/atei.gif'
+import Img from './atei.gif'
 
 class Atei extends React.Component {
     render() {
@@ -10,7 +10,7 @@ class Atei extends React.Component {
                 <div id="atei" class="float-right">
 
                     <h1>Ate-i</h1>
-                    <img src={{img}} alt="ate i demo" />
+                    <img src={Img} alt="ate i demo" />
                         <p>Ate-i uses AI and smart learning to identify food you are eating and sends back nutritional
                 information about your food item.</p>
                         <p><a href="javascript: document.body.scrollIntoView(false);"style={{color:'white',float:'left'}}>Click here

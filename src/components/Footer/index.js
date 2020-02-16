@@ -1,11 +1,16 @@
 import React from "react";
-import img from '../Style/images/me.jpg'
+import Img from './me.jpg'
 
 class Footer extends React.Component {
     render() {
         return (
 <div>
 
+     <div class="tooltip">
+         <img src={Img} alt="me" id="myPic"/>
+
+         <span class="tooltiptext">Thanks for visiting!</span>
+     </div>
  <div id="fifth">
     <div class="story">
         <div class="float-left">
@@ -39,11 +44,6 @@ class Footer extends React.Component {
                  visit firstNode's GitHub Repo</a>
          </div>
 
-     </div>
-     <div class="tooltip">
-         <img src={{img}} alt="me" style={{height: '500 px',width:'auto',float:'right'}} />
-
-         <span class="tooltiptext">Thanks for visiting!</span>
      </div>
  </div>
  <div id="wildDiv">
