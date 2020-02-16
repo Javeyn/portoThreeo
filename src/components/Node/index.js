@@ -1,4 +1,5 @@
 import React from "react";
+import img from '../Style/images/nodegif.gif'
 
 class Node extends React.Component {
     render() {
@@ -9,7 +10,7 @@ class Node extends React.Component {
                     <div class="story">
                         <div id="node" class="float-right">
                             <h2>GitHub Resume Creator</h2>
-                            <img src="style/images/nodegif.gif" alt="spinach shooters demo" />
+                            <img src={{img}} alt="spinach shooters demo" />
                             <p>Open your terminal and enter your GitHub username and select a color of your choice to create an
                                 HTML resume on the spot.
          </p>

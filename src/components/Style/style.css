@@ -90,7 +90,7 @@ h2 {
 }
 
 #second {
-    background: url("images/foodbg.jpg") 50% 0 no-repeat fixed;
+    background: url(images/foodbg.png) 50% 0 no-repeat fixed;
     background-size: cover;
     color: white;
     text-shadow: 2px 2px 4px #000000;

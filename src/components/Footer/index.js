@@ -1,4 +1,5 @@
 import React from "react";
+import img from '../Style/images/me.jpg'
 
 class Footer extends React.Component {
     render() {
@@ -40,7 +41,7 @@ class Footer extends React.Component {
 
      </div>
      <div class="tooltip">
-         <img src="style/images/me.jpg" alt="me" style={{height: '500 px',width:'auto',float:'right'}} />
+         <img src={{img}} alt="me" style={{height: '500 px',width:'auto',float:'right'}} />
 
          <span class="tooltiptext">Thanks for visiting!</span>
      </div>

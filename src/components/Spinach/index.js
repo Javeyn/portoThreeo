@@ -1,4 +1,5 @@
 import React from "react";
+import img from '../Style/images/shootas.gif'
 
 class Spinach extends React.Component {
     render() {
@@ -8,7 +9,7 @@ class Spinach extends React.Component {
                     <div class="story">
                         <div id="spinach" class="float-left">
                             <h2>Spinach Shooters</h2>
-                            <img src="style/images/shootas.gif" alt="spinach shooters demo" />
+                            <img src={{img}} alt="spinach shooters demo" />
                             <p>"When you take a familiar game like space invaders and you add a +5 to it, you get Spinach shooters."
                                 Create an account, choose your music, ship, game mode, and difficulty and try to top the Spinach
             Leaderboards</p>
